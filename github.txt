@@ -1,3 +1,17 @@
+변경한 내용 올리기
+
+내용을 변경하면 github에 내용이 뜬다
+그렇다면 좌측 하단에 설명을 적은뒤에 설명란 밑의 commit to master버튼을 클릭
+current branch 옆 push origin버튼 클릭!
+웹 사이트에 올라감
+----------------------------------
+
+깃허브 도메인을 받기전에 주의할것
+1. 파일명에 대문자를 넣지말기! (에러가 발생함)
+2. 브런치 이름은 꼭 gh-pages로 하길
+
+--------------------------
+
 1. 새로운 브런치 만들기 ('gh-pages'라고 지어줘야함! 무조건! , private창을 해제해줘야함)
 2. 맨 위의 파란색 버튼을 클릭해준다 (publish branch 버튼 클릭)
 (current branch옆에 fetch origin이 떠있으면 성공)
@@ -6,11 +20,14 @@
 
 사이트 주소 : woo-lee.github.io/프로젝트명
 
-https://wook-lee.github.io/clone-kakao/
+ex) https://wook-lee.github.io/clone-kakao/
 
 ---------------------------------------
 
-내용 올리기
-
-내용을 변경하면 github에 내용이 뜬다
-그렇다면 좌측 하단에 설명을 적은뒤에 설명란 밑의 버튼을 클릭
+gh-pages에 master내용을 업로드하기
+master에 내용을 수정하여도 gh-pages에는 내용이 수정되지않기에 직접 해주어야한다.
+1. master 페이지에서 수정된 내용을 업로딩한다 변경한 내용올리기 와 비슷하지만 push origin버튼은 누르지 않도록 하자 그리고 master에서 꼭 진행해야한다!!(master페이지에서는 내용이 업데이트 된다)
+2. gh-pages로 가서 branch를 업데이트 해준다. 옵션창에 branch로 들어가서 update from master를 클릭
+3. master로 돌아가서 push origin버튼 클릭!
+4. gh-pages로 돌아가서 push origin버튼 클릭!
+화면에 제대로 업데이트하기에는 시간이 걸리기에 기다리기
