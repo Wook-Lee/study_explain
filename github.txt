@@ -1,0 +1,16 @@
+1. 새로운 브런치 만들기 ('gh-pages'라고 지어줘야함! 무조건! , private창을 해제해줘야함)
+2. 맨 위의 파란색 버튼을 클릭해준다 (publish branch 버튼 클릭)
+(current branch옆에 fetch origin이 떠있으면 성공)
+3. github사이트에 접속(로그인 해야함) -> 해당 프로젝트로 들어가서 branches의 수 확인 2개면 정상
+시간이 조금 걸리니 기다려야함
+
+사이트 주소 : woo-lee.github.io/프로젝트명
+
+https://wook-lee.github.io/clone-kakao/
+
+---------------------------------------
+
+내용 올리기
+
+내용을 변경하면 github에 내용이 뜬다
+그렇다면 좌측 하단에 설명을 적은뒤에 설명란 밑의 버튼을 클릭
