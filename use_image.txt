@@ -1,0 +1,2 @@
+background-image: url("../images/chatBg.png");
+background-image: url("사이트 or 이미지가 저장되어 있는 위치");

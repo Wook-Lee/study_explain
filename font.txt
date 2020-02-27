@@ -1,0 +1,6 @@
+사용하는 폰트가 마음에 들지 않는다면?
+소스: 구글폰트(google-font)  에서 원하는 폰트의 +선택
+1. CUSTOMIZE에서 원하는 폰트의 굵기 선택 (필요한것만 선택할것 속도 느려질수도있음)
+2. EMBED에서 소스 복사하기
+<style></style>에 들어있는 코드는 styles.css에 기입하여 이 폰트를 사용할것이라는 선언
+specify in css에 있는 코드(font-family)는 적용시키고자 하는 css의 부분에 적어넣기

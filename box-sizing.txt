@@ -1,0 +1,15 @@
+box-sizing: border-box; 를 사용하는 이유
+css에서 padding을 사용할경우 좌측padding 10px늘릴시
+width: 100px
+heigh: 100px
+에서
+width: 110px
+heigh: 100px
+으로 면적이 증가하게 된다 물론 위 아래 padding을 늘릴시 그에 맞게 heigh도 증가하게 된다.
+따라서 면적과 크기가 padding의 크기만큼 동시에 증가하게 된다.
+
+따라서 웹의 면적을 초과해서 내용이 보이지 않게 되는 경우가 발생하게된다.
+box-sizing: border-box; 을 사용하게되면 padding만큼 크기가 커지는것이 아닌
+width: 100px
+heigh: 100px
+를 유지하게 되어 표현하고자 하는 내용이 웹에서 벗어나는 경우를 방지할수있다.

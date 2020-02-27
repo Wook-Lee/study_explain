@@ -1,0 +1,25 @@
+@keyframes showNavBar {
+	from {
+		transform: translateY(80px);
+	}
+	to {
+		transform: none;
+	}
+}
+
+.nav(/*class명*/) {
+	transform: translateY(80px); /*지정된 위치와 Y축 기준으로 80px아래에 위치함*/
+	animation: showNavBar 0.5s ease-in-out forwards; /*showNavBar에 설정한 코딩들을 이용하여 0.5s동안 ease-in-out 방식으로 동작 forwards : 애니메이션이 키프레임의 100%(from -> to)에 도달했을때 마지막 키프레임을 유지*/
+	animation-delay: 0.6s; /*애니메이션 효과가 0.6s이후에 동작*/
+}
+
+특정 원하는 동작을 코딩하고 싶다면
+@keyframes 이름{
+	from{}
+	to{}
+---------------- /*or*/
+	0%{}
+	50%{}
+	100%{}
+}
+사용

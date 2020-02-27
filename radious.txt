@@ -1,0 +1,7 @@
+border-radius: ??px; -> 곡선을 넣는다.
+
+border-top-right-radius: 0; ->특정 부분의 곡선을 없애고 직선으로 만든다.
+border-top-left-radius:
+
+border-bottom-right-radius:
+border-bottom-left-radius:

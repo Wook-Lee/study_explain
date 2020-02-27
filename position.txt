@@ -1,0 +1,15 @@
+justify-content: space-between; /*좌 우로 배치시킴*/
+
+align-items : center /*글 가운데 정렬x(화면 한 가운데에 내용이 정렬하지 않음) 가운데 선에 맞춰서 정렬시킴*/
+
+display: flex;
+align-self: flex-start;
+align-self: flex-end;
+
+text-align: right;-> 우측 배열
+
+align-items: flex-start; 위에 위치시킴
+align-items: center; 가운데 위치시킴
+align-items: flex-end; 아래에 위치시킴
+
+align-items: stretch; 옆의

@@ -1,0 +1,8 @@
+background-image: linear-gradient(to right, #5f2c82, #49a09d);
+
+background-image: linear-gradient(to left, #d53369, #cbad6d);
+
+background-image: linear-gradient(색변화방향,시작 색 , 끝나는 색);
+
+참고
+https://uigradients.com/#BlurryBeach

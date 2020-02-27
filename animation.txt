@@ -1,0 +1,54 @@
+.chat__write:focus ~ .chat__icon {  /* chat__wirte -> input의 클래스 네임 -> input을 클릭했을시 chat__icon에게 발생시킨다.*/
+	opacity: 0;
+}
+.chat__icon {
+	font-size: 18px;
+	transition: opacity 0.3s ease-in-out;
+}
+
+-> input 클릭시 input옆에있는 이모티콘들이 사라진다.
+<div class="chat__write-container">
+        <input class="chat__write" type="text" placeholder="Send message" class="chat__write-input">
+        <div class="chat__icon-left chat__icon">
+                <i class="far fa-plus-square"></i>
+            </div>
+            <div class="chat__icon-right chat__icon">
+                <span class="chat__write-icon">
+                    <i class="far fa-smile"></i>
+                </span>
+                <span class="chat__write-icon">
+                    <i class="fas fa-microphone"></i>
+                </span>
+            </div>
+</div>
+
+-> input 창을 클릭했을때 3개의 아이콘이 사라지는 효과
+1. 사라지고자 하는 이모티콘들은 HTML에서 input뒤에 선언되야한다
+2. 사라지는 효과를 넣을땐 display: none 보단 opacity로 할것
+
+-> input 클릭시 input옆의 이모티콘이 사라지고 input창이 Y축 기준으로 -100 만큼 떠오른다.
+.chat__write { /*1*/
+	margin: 0 auto;
+	bottom: 0px;
+	width: 100%;
+	border-radius: 0;
+	padding: 20px 60px;
+	width: 100%;
+	border: none;
+	font-size: 14px;
+	background-color: #fcfcfc;
+	transition: width 0.5s ease-in-out, border-radius 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+.chat__write:focus { /*2*/
+	outline: none;
+	width: 80%;
+	border-radius: 40px;
+	transform: translateY(-100px);
+	box-shadow: 0 30px 60px -12px rgba(50, 50, 93, .25), 0 18px 36px -18px rgba(0, 0, 0, .3),
+		0 -12px 36px -8px rgba(0, 0, 0, .025);
+}
+-> input창에 애니메이션을 넣은 css코드
+1번 코드는 input 클릭전
+2번 코드는 input 클릭후의 상황이다.
+ transition: ; 코드는 클릭전의 코드에 넣어줘야한다. 그럼 클릭하면서 자연스러운 애니메이션 효과를 연출하며 :focus의 내용들을 실행한다.
+transform: translateY(-100px); Y축 기준으로 -100px 만큼 움직인다.
