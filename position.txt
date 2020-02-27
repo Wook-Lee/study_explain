@@ -13,3 +13,13 @@ align-items: center; 가운데 위치시킴
 align-items: flex-end; 아래에 위치시킴
 
 align-items: stretch; 옆의
+
+
+position vs display
+position을 사용하면
+어느 특정위치에 고정시키거나 배열시킬수 있다.
+가령 position: fiex top: 0;으로 하면 상단 맨 위에 고정가능
+
+display를 사용하면 정렬시킬 수 있다./
+display: flex 하면 div를 한 줄에 몇개씩 배열 시킬 수 있으며 align-items or justify-content를 사용하여 가운데 정렬을 시킬수도있다.
+또는 일정한 간격을 띄우는 정렬을 가능하다.
